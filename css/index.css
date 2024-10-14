@@ -2,6 +2,9 @@ header {
     background-color: #3A4042;
 }
 
+nav{
+    text-align: right;
+}
 a {
     color: #fff;
     font-family: "Fira Code";
@@ -14,7 +17,7 @@ a {
 }
 
 #button-donwload {
-    display: inline-block;
+    display:inline-block;
     background-color: #D40000;
     height: 60px;
     padding-left: 20px;
