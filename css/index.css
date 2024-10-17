@@ -24,12 +24,13 @@ a {
     margin-right: 30px;
 }
 
-#button-donwload {
+.button {
     display: inline-block;
     background-color: #D40000;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px 0px #000;
     margin-right: 0;
+    transition: transform 100ms linear;
 }
 
 a::before {
@@ -39,4 +40,47 @@ a::before {
     height: 10px;
     width: 10px;
     margin-right: 10px;
+}
+
+.button:hover {
+    background-color: black;
+    transform: scale(1.08);
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
+.button::before {
+    content: none;
+
+}
+
+.intro {
+    background-color: #3A4042;
+    width: 627px;
+    height: 184px;
+}
+
+#nome {
+   
+    padding: 42px 97px 0px 90px;
+    color: var(--vermelho-ferrari, #D40000);
+    text-shadow: 4px 4px 0px #000;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#funcao {
+    padding: 28px 47px 44px 40px;
+    color: var(----color-third, #FFF);
+    text-shadow: 4px 4px 0px #000;
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
