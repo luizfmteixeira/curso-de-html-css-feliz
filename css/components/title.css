@@ -1,0 +1,11 @@
+h1 {
+    color: var(--vermelho-ferrari, #D40000);
+    text-shadow: 4px 4px 0px #000;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    
+}
