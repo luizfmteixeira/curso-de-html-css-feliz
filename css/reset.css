@@ -46,3 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+progress.progress-bar {
+	width: 100%;
+	height: 25px;
+	appearance: none; /* Remove o estilo padrão do navegador */
+}
