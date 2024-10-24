@@ -1,0 +1,39 @@
+.skills {
+    height: 730px;
+    padding: 50px;
+}
+
+.skills .skill {
+    display: flex;
+}
+
+.skills .title {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: none;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.skills .skillTitle {
+    color: #fff;
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25px;
+}
+
+.skills .skillIco {
+    width: 90px;
+}
+
+.skills .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
