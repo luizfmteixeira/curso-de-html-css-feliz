@@ -1,14 +1,14 @@
-.skills {
+.section-skills {
     height: 730px;
     padding: 50px;
     align-items: center;
 }
 
-.skills .skill {
+.section-skills .skill {
     display: flex;
 }
 
-.skills .title {
+.section-skills .main-title {
     color: #fff;
     font-size: 40px;
     font-style: normal;
@@ -20,7 +20,7 @@
     margin-bottom: 60px;
 }
 
-.skills .skillTitle {
+.section-skills .skillTitle {
     color: #fff;
     font-family: "Press Start 2P";
     font-size: 25px;
@@ -30,11 +30,11 @@
     margin-left: 25px;
 }
 
-.skills .skillIco {
+.section-skills .skillIco {
     width: 90px;
 }
 
-.skills .right {
+.section-skills .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
