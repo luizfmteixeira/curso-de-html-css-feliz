@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const track = document.querySelector(".carousel-track");
         const logos = document.querySelectorAll(".carousel-track img.logo");
         if (logos.length === 0) return; // Verifique se há logos para evitar erros
-        const logoWidth = logos[0].offsetWidth + 30; // Inclui margem entre imagens
+
+        // Use getBoundingClientRect para uma largura mais precisa
+        const logoWidth = logos[0].getBoundingClientRect().width + 30; // Inclua a margem
         track.style.transform = `translateX(-${currentIndex * logoWidth}px)`;
     }
 
@@ -21,5 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateCarousel();
     });
 
+    // Atualize o carrossel após o carregamento completo da janela
     window.addEventListener("resize", updateCarousel); // Atualize ao redimensionar
+    window.onload = updateCarousel; // Atualize ao carregar
 });
