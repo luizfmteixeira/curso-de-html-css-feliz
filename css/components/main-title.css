@@ -1,11 +1,12 @@
 .main-title {
-    color: var(--vermelho-ferrari, #D40000);
-    text-shadow: 4px 4px 0px #000;
-    font-family: "Press Start 2P";
+    font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    
+    color: #F25A70;
+    text-shadow: 4px 4px 0px #000;
+}
+
+.main-title.-second {
+    color: #FFF;
+    text-shadow: none;
+    text-align:center;
 }
