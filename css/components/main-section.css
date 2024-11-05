@@ -18,9 +18,20 @@
 }
 
 .main-section.-bgSecond {
-    background-color: #7C5E99;
+    background-color: #3A4042;
 }
 
 .main-section.-bdBlack {
     border-color: #000;
+}
+
+.main-section.section-skills {
+    background-color: #3A4042;
+    border-color: #000;
+}
+
+.main-section.-projetos {
+    height: 520px;
+    border-color: red;
+    background-color: black;
 }
