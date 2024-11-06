@@ -1,7 +1,7 @@
 .main-title {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
-    color: #F25A70;
+    color: red;
     text-shadow: 4px 4px 0px #000;
 }
 
@@ -16,3 +16,10 @@
     color: white;
     text-align:center;
 }
+
+.main-title.-contatos{
+    padding-top: 50px;
+    color: white;
+    text-align:center;
+}
+
