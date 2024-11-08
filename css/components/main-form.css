@@ -1,0 +1,36 @@
+.main-form {
+ display: block;
+}
+
+.main-form label {
+    
+    margin: 20px 40px 0px;
+    color: #fff;
+    font-family: "Fira Code";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: block;
+}
+
+.main-form input[type="text"] {
+    height: 50px;
+    width: calc(100% - 80px);
+    margin: 0px auto;
+    display: block;
+    border: 5px solid var(----color-black-first, #000);
+    background: var(----color-third, #FFF);
+}
+
+.main-button.-enviar {
+    height: 60px;
+    width: calc(100% - 80px);
+    margin: 20px auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.main-form #mensagem{
+    height: 320px;
+}
