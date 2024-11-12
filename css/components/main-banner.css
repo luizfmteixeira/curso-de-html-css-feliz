@@ -6,6 +6,8 @@
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;
+    background-size: cover; /* Adiciona esta linha */
+    background-position: center; /* Centraliza a imagem */
 
 }
 
