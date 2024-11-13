@@ -14,7 +14,7 @@
     display: block;
 }
 
-.main-form input[type="text"] {
+.main-form input {
     height: 50px;
     width: calc(100% - 80px);
     margin: 0px auto;
